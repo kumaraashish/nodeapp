@@ -1,0 +1,547 @@
+ 
+Fri Jan 13 2023 00:10:08 GMT+0530 (India Standard Time):--Dbname:- globaldb {"selector":{"pvt_type":"emrtavg"},"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 1,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 141.069
+}
+Fri Jan 13 2023 00:10:08 GMT+0530 (India Standard Time):--Dbname:- nt_account/2c/5b/26228ff98d590b0a8cafeb34dadb {"selector":{"pvt_type":"company","enabled":true},"limit":30000,"use_index":"pvt_type_enabled","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 173,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 173,
+  "execution_time_ms": 558.901
+}
+Fri Jan 13 2023 00:10:14 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":{"$in":["user","hsadminuser"]},"id":"5932e8f7d3f6118f225c2b7e5aecb447"},"use_index":"pvt_type_id","execution_stats":true,"limit":30000}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 253,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 0,
+  "execution_time_ms": 244.164
+}
+Fri Jan 13 2023 00:10:18 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"callsummery"},"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 0,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 25,
+  "execution_time_ms": 101.647
+}
+Fri Jan 13 2023 00:10:29 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 191,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 191,
+  "execution_time_ms": 154.34
+}
+Fri Jan 13 2023 00:10:30 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"user_type":"master","msteruser":true,"notify_enabled":true,"pvt_type":"user"},"limit":30000,"use_index":"user_master_enable-index","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 15,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 15,
+  "execution_time_ms": 148.785
+}
+Fri Jan 13 2023 00:10:33 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 191,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 191,
+  "execution_time_ms": 221.05
+}
+Fri Jan 13 2023 00:10:54 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"af131a186319c877dc5682c936eef908","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 191,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 126.452
+}
+Fri Jan 13 2023 14:03:59 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":{"$in":["user","hsadminuser"]},"id":"5932e8f7d3f6118f225c2b7e5aecb447"},"use_index":"pvt_type_id","execution_stats":true,"limit":30000}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 257,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 0,
+  "execution_time_ms": 242.031
+}
+Fri Jan 13 2023 14:04:11 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"user_type":"master","msteruser":true,"notify_enabled":true,"pvt_type":"user"},"limit":30000,"use_index":"user_master_enable-index","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 19,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 19,
+  "execution_time_ms": 165.702
+}
+Fri Jan 13 2023 14:04:13 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 195,
+  "execution_time_ms": 251.541
+}
+Fri Jan 13 2023 14:04:18 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 195,
+  "execution_time_ms": 102.336
+}
+Fri Jan 13 2023 14:13:38 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"af131a186319c877dc5682c936eef908","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 104.691
+}
+Fri Jan 13 2023 14:16:59 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"af131a186319c877dc5682c936eef908","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 109.14
+}
+Fri Jan 13 2023 14:19:28 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"af131a186319c877dc5682c936eef908","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 109.035
+}
+Fri Jan 13 2023 14:22:35 GMT+0530 (India Standard Time):--Dbname:- nt_account/2c/5b/26228ff98d590b0a8cafeb34dadb {"selector":{"pvt_type":"company","enabled":true},"limit":30000,"use_index":"pvt_type_enabled","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 173,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 173,
+  "execution_time_ms": 284.057
+}
+Fri Jan 13 2023 14:22:40 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":{"$in":["user","hsadminuser"]},"id":"5932e8f7d3f6118f225c2b7e5aecb447"},"use_index":"pvt_type_id","execution_stats":true,"limit":30000}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 257,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 0,
+  "execution_time_ms": 149.133
+}
+Fri Jan 13 2023 14:22:52 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 195,
+  "execution_time_ms": 127.259
+}
+Fri Jan 13 2023 14:22:53 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"user_type":"master","msteruser":true,"notify_enabled":true,"pvt_type":"user"},"limit":30000,"use_index":"user_master_enable-index","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 19,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 19,
+  "execution_time_ms": 192.996
+}
+Fri Jan 13 2023 14:22:56 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 195,
+  "execution_time_ms": 267.5
+}
+Fri Jan 13 2023 14:23:01 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 195,
+  "execution_time_ms": 112.015
+}
+Fri Jan 13 2023 14:24:56 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"af131a186319c877dc5682c936eef908","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 108.436
+}
+Fri Jan 13 2023 14:28:24 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"af131a186319c877dc5682c936eef908","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 115.686
+}
+Fri Jan 13 2023 14:30:52 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"af131a186319c877dc5682c936eef908","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 125.428
+}
+Fri Jan 13 2023 14:32:39 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"af131a186319c877dc5682c936eef908","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 108.929
+}
+Fri Jan 13 2023 14:34:52 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"af131a186319c877dc5682c936eef908","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 127.982
+}
+Fri Jan 13 2023 14:36:59 GMT+0530 (India Standard Time):--Dbname:- nt_account/2c/5b/26228ff98d590b0a8cafeb34dadb {"selector":{"pvt_type":"company","enabled":true},"limit":30000,"use_index":"pvt_type_enabled","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 173,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 173,
+  "execution_time_ms": 102.383
+}
+Fri Jan 13 2023 14:37:53 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 195,
+  "execution_time_ms": 125.273
+}
+Fri Jan 13 2023 14:37:55 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 195,
+  "execution_time_ms": 173.382
+}
+Fri Jan 13 2023 14:39:20 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"af131a186319c877dc5682c936eef908","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 123.18
+}
+Fri Jan 13 2023 14:39:32 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"af131a186319c877dc5682c936eef908","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 112.47
+}
+Fri Jan 13 2023 14:40:15 GMT+0530 (India Standard Time):--Dbname:- nt_account/2c/5b/26228ff98d590b0a8cafeb34dadb {"selector":{"pvt_type":"company","enabled":true},"limit":30000,"use_index":"pvt_type_enabled","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 173,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 173,
+  "execution_time_ms": 104.587
+}
+Fri Jan 13 2023 14:40:37 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 195,
+  "execution_time_ms": 276.515
+}
+Fri Jan 13 2023 14:41:22 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"af131a186319c877dc5682c936eef908","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 101.925
+}
+Fri Jan 13 2023 14:44:28 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"af131a186319c877dc5682c936eef908","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 104.636
+}
+Fri Jan 13 2023 14:45:56 GMT+0530 (India Standard Time):--Dbname:- nt_account/2c/5b/26228ff98d590b0a8cafeb34dadb {"selector":{"pvt_type":"company","enabled":true},"limit":30000,"use_index":"pvt_type_enabled","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 173,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 173,
+  "execution_time_ms": 317.351
+}
+Fri Jan 13 2023 14:46:05 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 195,
+  "execution_time_ms": 270.506
+}
+Fri Jan 13 2023 14:46:45 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"af131a186319c877dc5682c936eef908","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 103.355
+}
+Fri Jan 13 2023 14:54:12 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"af131a186319c877dc5682c936eef908","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 135.589
+}
+Fri Jan 13 2023 14:58:16 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"af131a186319c877dc5682c936eef908","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 119.636
+}
+Fri Jan 13 2023 14:58:54 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"af131a186319c877dc5682c936eef908","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 105.108
+}
+Fri Jan 13 2023 15:01:38 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"af131a186319c877dc5682c936eef908","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 102.776
+}
+Fri Jan 13 2023 15:04:03 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"af131a186319c877dc5682c936eef908","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 135.706
+}
+Fri Jan 13 2023 15:07:28 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"af131a186319c877dc5682c936eef908","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 112.913
+}
+Fri Jan 13 2023 15:10:27 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"af131a186319c877dc5682c936eef908","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 164.652
+}
+Fri Jan 13 2023 15:10:56 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 195,
+  "execution_time_ms": 108.73
+}
+Fri Jan 13 2023 15:11:09 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"af131a186319c877dc5682c936eef908","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 116.253
+}
+Fri Jan 13 2023 15:13:35 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"af131a186319c877dc5682c936eef908","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 112.595
+}
+Fri Jan 13 2023 15:14:38 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 195,
+  "execution_time_ms": 114.248
+}
+Fri Jan 13 2023 15:14:52 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"56da8655fa64d5d1896fca07ed73fe68","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 122.616
+}
+Fri Jan 13 2023 15:15:47 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user","username":"voxos62888@v3dev.com"},"use_index":"pvt_type_username","execution_stats":true,"limit":30000}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 0,
+  "execution_time_ms": 128.294
+}
+Fri Jan 13 2023 15:15:55 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 195,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 195,
+  "execution_time_ms": 171.682
+}
+Fri Jan 13 2023 15:16:27 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"5700efb108a925af5bd666bdddb3f839","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 196,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 108.273
+}
+Fri Jan 13 2023 15:17:09 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"user_type":"master","msteruser":true,"notify_enabled":true,"pvt_type":"user"},"limit":30000,"use_index":"user_master_enable-index","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 19,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 19,
+  "execution_time_ms": 214.513
+}
+Fri Jan 13 2023 15:17:11 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 196,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 196,
+  "execution_time_ms": 107.554
+}
+Fri Jan 13 2023 15:17:12 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 196,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 196,
+  "execution_time_ms": 316.484
+}
+Fri Jan 13 2023 15:17:18 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 196,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 196,
+  "execution_time_ms": 118.973
+}
+Fri Jan 13 2023 15:18:00 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 196,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 196,
+  "execution_time_ms": 101.556
+}
+Fri Jan 13 2023 15:18:24 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 196,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 196,
+  "execution_time_ms": 136.949
+}
+Fri Jan 13 2023 15:22:07 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"5700efb108a925af5bd666bdddb3f839","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 196,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 666.071
+}
+Fri Jan 13 2023 15:23:13 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"property","enabled":true},"use_index":"pvt_type_enabled","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 9,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 9,
+  "execution_time_ms": 101
+}
+Fri Jan 13 2023 16:03:43 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"5700efb108a925af5bd666bdddb3f839","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 196,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 114.963
+}
+Fri Jan 13 2023 16:04:09 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user","username":"voxos62888@v3dev.com"},"use_index":"pvt_type_username","execution_stats":true,"limit":30000}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 196,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 110.381
+}
+Fri Jan 13 2023 16:04:13 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"5700efb108a925af5bd666bdddb3f839","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 196,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 111.102
+}
+Fri Jan 13 2023 16:04:27 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 196,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 196,
+  "execution_time_ms": 108.696
+}
+Fri Jan 13 2023 16:04:28 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 196,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 196,
+  "execution_time_ms": 212.799
+}
+Fri Jan 13 2023 16:05:45 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"5700efb108a925af5bd666bdddb3f839","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 196,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 126.29
+}
+Fri Jan 13 2023 16:06:44 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"5700efb108a925af5bd666bdddb3f839","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 196,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 769.134
+}
+Fri Jan 13 2023 16:09:51 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"5700efb108a925af5bd666bdddb3f839","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 196,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 109.913
+}
+Fri Jan 13 2023 16:10:05 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"5700efb108a925af5bd666bdddb3f839","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 196,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 110.139
+}
+Fri Jan 13 2023 16:10:44 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 196,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 196,
+  "execution_time_ms": 109.126
+}
+Fri Jan 13 2023 16:10:48 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 196,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 196,
+  "execution_time_ms": 158.094
+}
+Fri Jan 13 2023 16:11:18 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 196,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 196,
+  "execution_time_ms": 118.29
+}
+Fri Jan 13 2023 16:11:24 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"kazooid":"5700efb108a925af5bd666bdddb3f839","pvt_type":"user"},"limit":30000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 196,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 129.299
+}
+Fri Jan 13 2023 16:13:04 GMT+0530 (India Standard Time):--Dbname:- nt_account/1e/ad/970e010d51c919cf125b912503a1 {"selector":{"pvt_type":"user"},"limit":5000,"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 196,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 196,
+  "execution_time_ms": 125.825
+}
+Fri Jan 13 2023 18:14:43 GMT+0530 (India Standard Time):--Dbname:- nt_account/2c/5b/26228ff98d590b0a8cafeb34dadb {"selector":{"pvt_type":"company","enabled":true},"limit":30000,"use_index":"pvt_type_enabled","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 173,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 173,
+  "execution_time_ms": 202.473
+}
+Fri Jan 13 2023 18:17:19 GMT+0530 (India Standard Time):--Dbname:- nt_account/2c/5b/26228ff98d590b0a8cafeb34dadb {"selector":{"pvt_type":"company","enabled":true},"limit":30000,"use_index":"pvt_type_enabled","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 173,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 173,
+  "execution_time_ms": 105.635
+}
+Fri Jan 13 2023 18:18:04 GMT+0530 (India Standard Time):--Dbname:- nt_account/2c/5b/26228ff98d590b0a8cafeb34dadb {"selector":{"pvt_type":"company","enabled":true},"limit":30000,"use_index":"pvt_type_enabled","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 173,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 173,
+  "execution_time_ms": 142.192
+}

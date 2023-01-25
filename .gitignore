@@ -1,0 +1,11 @@
+node_modules/*
+
+index.js
+*.tar.gz
+.DS_Store
+
+src/*.js
+*.js
+rabbit
+scripts
+*.log

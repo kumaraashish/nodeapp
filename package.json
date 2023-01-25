@@ -1,0 +1,90 @@
+{
+    "scripts": {
+        "tsc": "./node_modules/.bin/tsc",
+        "build": "npm run tsc index.ts emrtdata.ts callactivityschedulereport.ts schedulereport.ts callsummery.ts -- --lib es2018 --skipLibCheck true",
+        "watch": "npm run tsc index.ts -- --lib es2018 --skipLibCheck true --watch",
+        "serve": "environment=dev port=3000 node index.js",
+        "winserve": "set environment=dev && node index.js",
+        "winserve:watch": "set environment=dev && nodemon index.js",
+        "serve:prod": "environment=prod port=4000 node index.js",
+        "winserve:prod": "set environment=prod && tar -zchf $(date +%m%d%Y-%I%M%S).tar.gz --exclude=\".git\" --exclude=\"*.tar.gz\" .set port=4000 && node index.js",
+        "package": "ls -al && tar -vzchf $(date +%m%d%Y-%I%M%S).tar.gz --exclude=\".git\" --exclude=\"*.tar.gz\"  --exclude=\"*.yml\" --exclude=\"node_modules\"  .",
+        "deploy": " npm run package && ./deploy.sh && ssh centos@ec2-52-88-89-227.us-west-2.compute.amazonaws.com bash -c './deploy.sh' && ssh centos@ec2-34-209-170-147.us-west-2.compute.amazonaws.com bash -c './deploy.sh'",
+        "deploy_staging": " ./deploy_staging.sh && ssh centos@34.220.10.89 bash -c './deploy.sh'",
+        "linkdash": "ln -s ../dashboard/src_vue/dist ./public/dist",
+        "test": "jest --watch"
+    },
+    "dependencies": {
+        "@bandwidth/messaging": "^2.0.0",
+        "@types/express": "4.0.35",
+        "@types/node": "^7.10.10",
+        "@types/request": "^2.48.5",
+        "amqplib": "^0.10.3",
+        "aws-sdk": "^2.931.0",
+        "axios": "^0.27.2",
+        "body-parser": "^1.19.0",
+        "cookie-parser": "1.4.3",
+        "cors": "2.8.2",
+        "crossbar": "^1.0.0",
+        "d3": "^5.16.0",
+        "d3-collection": "^1.0.7",
+        "dotenv": "4.0.0",
+        "download": "^7.1.0",
+        "elastic-apm-node": "^3.27.0",
+        "elasticsearch": "^16.7.1",
+        "express": "^4.17.1",
+        "jsonwebtoken": "7.3.0",
+        "log4js": "^6.3.0",
+        "m5": "0.1.0",
+        "md5": "^2.2.1",
+        "merge-descriptors": "^1.0.1",
+        "mixpanel": "^0.13.0",
+        "mixpanel-browser": "^2.39.0",
+        "moment-timezone": "^0.5.28",
+        "morgan": "^1.10.0",
+        "multer": "^1.4.2",
+        "multer-s3": "^2.9.0",
+        "nano": "^6.4.4",
+        "nano-new": "npm:nano@^10.0.0",
+        "node-bandwidth": "^2.6.5",
+        "node-cron": "^2.0.3",
+        "nodemailer": "^6.4.6",
+        "path": "0.12.7",
+        "typescript": "^4.3.4",
+        "uuid": "^3.4.0",
+        "vue-instantsearch": "^2.7.0",
+        "zod": "^3.17.3"
+    },
+    "jest": {
+        "moduleFileExtensions": [
+            "js",
+            "ts",
+            "json",
+            "vue"
+        ],
+        "moduleDirectories": [
+            "node_modules"
+        ],
+        "coveragePathIgnorePatterns": [
+            "*.ts",
+            "*.js"
+        ],
+        "transform": {
+            "^.+\\.(ts|js|html)$": "ts-jest"
+        },
+        "testURL": "http://localhost/",
+        "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$"
+    },
+    "devDependencies": {
+        "@types/amqplib": "^0.10.0",
+        "@types/jest": "^26.0.24",
+        "jest": "^26.6.3",
+        "json-schema-faker": "^0.4.7",
+        "nodemon": "^2.0.20",
+        "rimraf": "^3.0.2",
+        "supertest": "^6.3.3",
+        "ts-jest": "^26.5.6",
+        "ts-node": "^9.1.1",
+        "typescript": "^4.3.4"
+    }
+}

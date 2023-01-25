@@ -1,0 +1,92 @@
+ 
+Mon Jan 16 2023 09:02:11 GMT+0530 (India Standard Time):--Dbname:- nt_account/2c/5b/26228ff98d590b0a8cafeb34dadb {"selector":{"pvt_type":"property","propertyid":"2c5b26228ff98d590b0a8cafeb34dadb"},"limit":30000,"use_index":"pvt_type_propertyid","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 0,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 0,
+  "execution_time_ms": 2170.076
+}
+Mon Jan 16 2023 09:02:13 GMT+0530 (India Standard Time):--Dbname:- nt_account/2c/5b/26228ff98d590b0a8cafeb34dadb {"selector":{"pvt_type":"user","username":"kumaraashish@facileconsulting.com"},"use_index":"pvt_type_username","execution_stats":true,"limit":30000}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 0,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 0,
+  "execution_time_ms": 550.422
+}
+Mon Jan 16 2023 09:03:11 GMT+0530 (India Standard Time):--Dbname:- nt_account/fb/9f/931a20c58ee3dfcdb9ebae0fc107 {"selector":{"pvt_type":"company","companyid":"fb9f931a20c58ee3dfcdb9ebae0fc107"},"limit":30000,"use_index":"pvt_type_companyid","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 1,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 3948.777
+}
+Mon Jan 16 2023 09:03:15 GMT+0530 (India Standard Time):--Dbname:- globaldb {"selector":{"pvt_type":"emrtavg"},"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 1,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 1182.103
+}
+Mon Jan 16 2023 09:05:07 GMT+0530 (India Standard Time):--Dbname:- nt_account/2c/5b/26228ff98d590b0a8cafeb34dadb {"selector":{"pvt_type":"user","username":"kumaraashish@facileconsulting.com"},"use_index":"pvt_type_username","execution_stats":true,"limit":30000}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 0,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 0,
+  "execution_time_ms": 3226.467
+}
+Mon Jan 16 2023 09:05:12 GMT+0530 (India Standard Time):--Dbname:- nt_account/2c/5b/26228ff98d590b0a8cafeb34dadb {"selector":{"pvt_type":"company","enabled":true},"limit":30000,"use_index":"pvt_type_enabled","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 173,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 173,
+  "execution_time_ms": 3135.148
+}
+Mon Jan 16 2023 09:15:33 GMT+0530 (India Standard Time):--Dbname:- nt_account/fb/9f/931a20c58ee3dfcdb9ebae0fc107 {"selector":{"pvt_type":"company","companyid":"fb9f931a20c58ee3dfcdb9ebae0fc107"},"limit":30000,"use_index":"pvt_type_companyid","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 1,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 8572.005
+}
+Mon Jan 16 2023 09:16:20 GMT+0530 (India Standard Time):--Dbname:- nt_account/2c/5b/26228ff98d590b0a8cafeb34dadb {"selector":{"pvt_type":"company","enabled":true},"limit":30000,"use_index":"pvt_type_enabled","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 173,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 173,
+  "execution_time_ms": 3142.468
+}
+Mon Jan 16 2023 09:36:31 GMT+0530 (India Standard Time):--Dbname:- nt_account/2c/5b/26228ff98d590b0a8cafeb34dadb {"selector":{"pvt_type":"property","propertyid":"2c5b26228ff98d590b0a8cafeb34dadb"},"limit":30000,"use_index":"pvt_type_propertyid","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 0,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 0,
+  "execution_time_ms": 1903.575
+}
+Mon Jan 16 2023 09:37:28 GMT+0530 (India Standard Time):--Dbname:- nt_account/2c/5b/26228ff98d590b0a8cafeb34dadb {"selector":{"pvt_type":"company","enabled":true},"limit":30000,"use_index":"pvt_type_enabled","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 173,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 173,
+  "execution_time_ms": 923.431
+}
+Mon Jan 16 2023 09:37:38 GMT+0530 (India Standard Time):--Dbname:- nt_account/fb/9f/931a20c58ee3dfcdb9ebae0fc107 {"selector":{"pvt_type":"company","companyid":"fb9f931a20c58ee3dfcdb9ebae0fc107"},"limit":30000,"use_index":"pvt_type_companyid","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 1,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 9620.305
+}
+Mon Jan 16 2023 09:37:44 GMT+0530 (India Standard Time):--Dbname:- nt_account/fb/9f/931a20c58ee3dfcdb9ebae0fc107 {"selector":{"pvt_type":"callsummery"},"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 11,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 25,
+  "execution_time_ms": 5311.005
+}
+Mon Jan 16 2023 09:37:47 GMT+0530 (India Standard Time):--Dbname:- globaldb {"selector":{"pvt_type":"emrtavg"},"use_index":"pvt_type","execution_stats":true}------{
+  "total_keys_examined": 0,
+  "total_docs_examined": 1,
+  "total_quorum_docs_examined": 0,
+  "results_returned": 1,
+  "execution_time_ms": 8095.799
+}
